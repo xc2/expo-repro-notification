@@ -1,0 +1,24 @@
+{
+  "name": "expo-repro-notification",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "prebuild": "expo prebuild -p ios",
+    "start": "expo run:ios",
+    "push": "xcrun simctl push booted dev.expo-repro.notification notification_payload.json"
+  },
+  "dependencies": {
+    "expo": "~52.0.32",
+    "expo-notifications": "~0.29.13",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true,
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+}

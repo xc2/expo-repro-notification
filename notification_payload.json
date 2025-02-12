@@ -1,0 +1,9 @@
+{
+  "aps": {
+    "alert": {
+      "title": "Hello",
+      "body": "Hi"
+    },
+    "sound": "default"
+  }
+}
